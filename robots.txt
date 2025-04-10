@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://QEASONT.github.io/sitemap.xml
+Sitemap: https://qt.qiantech.online/sitemap.xml
