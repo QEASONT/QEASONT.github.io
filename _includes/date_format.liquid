@@ -17,6 +17,10 @@
   {{ month }}, {{ year }}
 {%- elsif site.active_lang == 'pt-br' -%}
   {{ day }} de {{ month }}, {{ year }}
+{%- elsif site.active_lang == 'zh-cn' -%}
+  {{ year }}
+  {{ month }}
+  {{ day }}
 {%- else -%}
   {{ day }}
   {{ month }}

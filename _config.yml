@@ -17,10 +17,10 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: academic-website, portfolio-website # add your own keywords or leave empty
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: /favicon/favicon.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://qt.qiantech.online # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
+baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
@@ -125,10 +125,10 @@ disqus_shortname: qt # put your disqus shortname
 external_sources:
   - name: medium.com
     rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+  # - name: Google Blog
+  #   posts:
+  #     - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+  #       published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -193,20 +193,28 @@ exclude:
   - package-lock.json
   - _pages/en-us/about_einstein.md
   - _pages/pt-br/about_einstein.md
+  - _pages/zh-cn/about_einstein.md
   - purgecss.config.js
   - README.md
   - README.pt-br.md
   - readme_preview/
   - UPGRADING.md
   - vendor
-  - _pages/blog.md
+  - _pages/en-us/blog.md
   # - _posts/
-  - _pages/projects.md
-  - _pages/publications.md
-  - _pages/dropdown.md
-  - _pages/profiles.md
-  - _pages/teaching.md
-  - _pages/repositories.md
+  - _pages/en-us/projects.md
+  - _pages/en-us/publications.md
+  - _pages/en-us/dropdown.md
+  - _pages/en-us/profiles.md
+  - _pages/en-us/teaching.md
+  - _pages/en-us/repositories.md
+  - _pages/zh-cn/blog.md
+  - _pages/zh-cn/projects.md
+  - _pages/zh-cn/publications.md
+  - _pages/zh-cn/dropdown.md
+  - _pages/zh-cn/profiles.md
+  - _pages/zh-cn/teaching.md
+  - _pages/zh-cn/repositories.md
 keep_files:
   - CNAME
   - .nojekyll
@@ -362,7 +370,7 @@ external_links:
 # Jekyll Polyglot
 # -----------------------------------------------------------------------------
 
-languages: ["en-us", "pt-br", "fr-ca"]
+languages: ["en-us", "zh-cn"]
 default_lang: "en-us"
 exclude_from_localization: ["assets"]
 lang_from_path: true
@@ -656,8 +664,8 @@ third_party_libraries:
 jekyll_get_json:
   - data: resume_en-us
     json: assets/json/resume_en-us.json # it can also be an url
-  - data: resume_pt-br
-    json: assets/json/resume_pt-br.json # it can also be an url
+  - data: resume_zh-cn
+    json: assets/json/resume_zh-cn.json # it can also be an url
 
 jsonresume:
   - basics

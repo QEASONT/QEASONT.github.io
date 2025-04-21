@@ -1,0 +1,164 @@
+archive:
+  prefix: an archive of
+  category_suffix: in this category
+  tag_suffix: with this tag
+  year_suffix: from this year
+bibliography:
+  abstract: Abs
+  awarded: Awarded
+  blog: Blog
+  book_prefix: In
+  code: Code
+  last_author_prefix: and
+  poster: Poster
+  slides: Slides
+  supp: Supp
+  video: Video
+  website: Website
+blog:
+  navigation_title: blog
+categories:
+  fun: fun
+  work: work
+citation:
+  bibtex: "or as a BibTeX entry:"
+  introduction: "If you found this useful, please cite this as:"
+collections:
+  books: books
+  posts: posts
+contact_note: 请随时通过电子邮件或社交媒体与我联系。
+cv:
+  address: 地址
+  area: 领域
+  awarder: 颁奖方
+  awards: 奖项
+  basics: 基本信息
+  certificates: 证书
+  city: 城市
+  countryCode: 国家代码
+  courses: 课程
+  date: 日期
+  education: 教育经历
+  email: 邮箱
+  endDate: 结束日期
+  fluency: 熟练程度
+  highlights: 亮点
+  image: 图片
+  institution: 机构
+  interests: 兴趣爱好
+  issuer: 发行方
+  keywords: 关键词
+  label: 标签
+  language: 语言
+  languages: 语言能力
+  level: 水平
+  location: 位置
+  name: 姓名
+  network: 社交网络
+  organization: 组织
+  phone: 电话
+  position: 职位
+  postalCode: 邮政编码
+  present: 现在
+  profiles: 个人资料
+  projects: 项目
+  publications: 出版物
+  publisher: 出版商
+  reference: 推荐人
+  references: 推荐信
+  region: 地区
+  releaseDate: 发布日期
+  score: 分数
+  skills: 技能
+  startDate: 开始日期
+  studyType: 学习类型
+  summary: 概述
+  table_of_contents: 目录
+  title: 标题
+  url: 网址
+  username: 用户名
+  volunteer: 志愿者经历
+  work: 工作经历
+footer:
+  copyright: Copyright
+  last_updated: "Last updated:"
+footer_text: > # the ">" symbol means to ignore newlines until "titles:"
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+latest_posts: latest posts
+months:
+  long:
+    january: January
+    february: February
+    march: March
+    april: April
+    may: May
+    june: June
+    july: July
+    august: August
+    september: September
+    october: October
+    november: November
+    december: December
+  short:
+    january: Jan
+    february: Feb
+    march: Mar
+    april: Apr
+    may: May
+    june: Jun
+    july: Jul
+    august: Aug
+    september: Sep
+    october: Oct
+    november: Nov
+    december: Dec
+news: news
+newsletter:
+  back: Back
+  error: "Oops! Something went wrong, please try again."
+  subscribe: subscribe
+  subscribed: "You have successfully subscribed to the newsletter."
+  subscribe_to_receive: "Subscribe to be notified of future articles:"
+  too_many_signups: "Too many signups, please try again in a little while"
+  wait: "Please wait..."
+no_news: No news so far...
+no_posts: "No posts so far..."
+pagination:
+  page: page
+post:
+  created_in: Created in
+  created_by: by
+  last_updated: last updated in
+references: References
+related_posts:
+  description: "Here are some more articles you might like to read next:"
+  title: Enjoy Reading This Article?
+search:
+  dark_theme:
+    description: Change the theme of the site to Dark
+    title: Change theme to dark
+  dropdown: Dropdown
+  email: Send an email
+  footer:
+    close: to close
+    navigate: to navigate
+    parent: move to parent
+    select: to select
+  languages: Languages
+  light_theme:
+    description: Change the theme of the site to Light
+    title: Change theme to light
+  navigation: Navigation menu
+  news: News
+  placeholder: Type to start searching
+  posts: Posts
+  projects: Projects
+  socials: Socials
+  system_theme:
+    description: Change the theme of the site to System Default
+    title: Use system default theme
+  theme: Theme
+selected_publications: selected publications
+site_description: A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
