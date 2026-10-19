@@ -29,8 +29,4 @@ I am Tang Qian, an Algorithm Engineer at Ant Group. My research interests includ
 
 My work includes OneDB (SIGKDD 2026), QBase (TKDE 2026), and DIMS (TKDE).
 
-## Recent Project
-
-**[FEAT: A Linear-Complexity Foundation Model for Extremely Large Structured Data](https://arxiv.org/abs/2603.16513)** is my recent research project. FEAT combines bidirectional state-space modeling with gated linear attention to support scalable learning over structured data. It enables zero-shot classification, regression, and missing-value imputation, with linear complexity along the sample dimension. The paper is available as an arXiv preprint.
-
 For more details about my publications, experience, and achievements, please visit my [CV](/cv/) page.

@@ -31,8 +31,4 @@ announcements:
 
 相关研究包括 OneDB（SIGKDD 2026）、QBase（TKDE 2026）和 DIMS（TKDE）。
 
-## 近期项目
-
-**[FEAT: A Linear-Complexity Foundation Model for Extremely Large Structured Data](https://arxiv.org/abs/2603.16513)** 是我近期参与的研究项目。FEAT 将双向状态空间模型与门控线性注意力结合，面向超大规模结构化数据，在样本维度上实现线性复杂度，支持零样本分类、回归及缺失值填补。论文目前以 arXiv 预印本形式公开。
-
 关于我的论文、经历和奖项等更多详细信息，请访问我的[个人简历](/cv/)页面。
