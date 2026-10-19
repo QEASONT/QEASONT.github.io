@@ -11,7 +11,7 @@ contact_note: >
   The best way to reach me is via email at qt.tang.qian@zju.edu.cn.
   I will try my best to reply to you as soon as possible.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Tang Qian, Algorithm Engineer at Ant Group. Research in structured data foundation models, vector search, and distributed systems.
+  Tang Qian, Algorithm Engineer at Ant Group. Research in pre-trained models for structured data and time series.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.

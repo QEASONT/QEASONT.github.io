@@ -25,7 +25,7 @@ announcements:
 
 ## Biography
 
-I am Tang Qian, an Algorithm Engineer at Ant Group. My research interests include structured data foundation models, vector search, and distributed systems. My research at Zhejiang University's School of Computer Science and Technology focused on efficient indexing and similarity search over large-scale data.
+I am Tang Qian. I joined Ant Group as an Algorithm Engineer in April 2026. My current research focuses on pre-trained models for structured data and time series. I am also interested in vector search and distributed systems. My research at Zhejiang University's School of Computer Science and Technology focused on efficient indexing and similarity search over large-scale data.
 
 My work includes OneDB (SIGKDD 2026), QBase (TKDE 2026), and DIMS (TKDE).
 

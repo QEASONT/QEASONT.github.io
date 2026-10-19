@@ -161,4 +161,4 @@ search:
     title: Use system default theme
   theme: Theme
 selected_publications: selected publications
-site_description: Tang Qian, Algorithm Engineer at Ant Group. Research in structured data foundation models, vector search, and distributed systems.
+site_description: Tang Qian, Algorithm Engineer at Ant Group. Research in pre-trained models for structured data and time series.

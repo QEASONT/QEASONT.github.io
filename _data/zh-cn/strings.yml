@@ -161,4 +161,4 @@ search:
     title: Use system default theme
   theme: Theme
 selected_publications: selected publications
-site_description: 钱唐，蚂蚁集团算法工程师，关注结构化数据基础模型、向量检索与分布式系统。
+site_description: 钱唐，蚂蚁集团算法工程师，研究方向为预训练结构化数据模型与预训练时序模型。
