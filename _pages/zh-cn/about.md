@@ -13,7 +13,7 @@ profile:
     <p>杭州西湖区</p>
     <p>浙江大学玉泉校区</p>
     <p>则通楼</p>
-    <p>qt.tang.qian@zju.edu.cn</p>
+    <p>qt.tang.qian@<wbr>zju.edu.cn</p>
 
 news: true # includes a list of news items
 latest_posts: true # includes a list of the newest posts
