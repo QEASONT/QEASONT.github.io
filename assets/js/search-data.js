@@ -29,7 +29,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "Algorithm Engineer at Ant Group, with research interests in structured data foundation models, vector search, and distributed systems. Recent work includes FEAT, OneDB (SIGKDD 2026), and QBase (TKDE 2026). Explore my experience and research below, or download the PDF CV.",
+          description: "Algorithm Engineer at Ant Group since April 2026, researching pre-trained models for structured data and time series. Recent work includes FEAT, OneDB (SIGKDD 2026), and QBase (TKDE 2026). Explore my experience and research below, or download the PDF CV.",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/cv/";
@@ -405,6 +405,9 @@ ninja.data = [{
           section: "News",},{id: "news-confetti-ball-awarded-huawei-elite-scholarship",
           title: ':confetti_ball: Awarded Huawei Elite Scholarship',
           description: "",
+          section: "News",},{id: "news-i-joined-ant-group-as-an-algorithm-engineer-in-april-2026-my-research-focuses-on-pre-trained-models-for-structured-data-and-time-series",
+          title: 'I joined Ant Group as an Algorithm Engineer in April 2026. My research...',
+          description: "",
           section: "News",},{id: "news-our-paper-onedb-a-distributed-multi-metric-data-similarity-search-system-has-been-published-at-sigkdd-2026",
           title: 'Our paper OneDB: A Distributed Multi-Metric Data Similarity Search System has been published...',
           description: "",
@@ -413,9 +416,6 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-our-paper-qbase-a-query-aware-vector-search-system-has-been-accepted-by-ieee-tkde-2026",
           title: 'Our paper QBase: A Query Aware Vector Search System has been accepted by...',
-          description: "",
-          section: "News",},{id: "news-i-am-now-an-algorithm-engineer-at-ant-group",
-          title: 'I am now an Algorithm Engineer at Ant Group.',
           description: "",
           section: "News",},{id: "projects-project-7",
           title: 'project 7',

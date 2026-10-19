@@ -29,7 +29,7 @@ ninja.data = [{
           },
         },{id: "nav-个人简历",
           title: "个人简历",
-          description: "我是钱唐，目前在蚂蚁集团担任算法工程师，研究兴趣包括结构化数据基础模型、向量检索与分布式系统。近期研究包括 FEAT、OneDB（SIGKDD 2026）和 QBase（TKDE 2026）。可在下方查看工作与研究经历，或下载 PDF 简历。",
+          description: "我是钱唐，自 2026 年 4 月起在蚂蚁集团担任算法工程师，研究方向为预训练结构化数据模型与预训练时序模型。近期研究包括 FEAT、OneDB（SIGKDD 2026）和 QBase（TKDE 2026）。可在下方查看工作与研究经历，或下载 PDF 简历。",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/zh-cn/cv/";
@@ -405,6 +405,9 @@ ninja.data = [{
           section: "News",},{id: "news-confetti-ball-awarded-huawei-elite-scholarship",
           title: ':confetti_ball: Awarded Huawei Elite Scholarship',
           description: "",
+          section: "News",},{id: "news-2026-年-4-月加入蚂蚁集团-担任算法工程师-研究方向-预训练结构化数据模型与预训练时序模型",
+          title: '2026 年 4 月加入蚂蚁集团，担任算法工程师。研究方向：预训练结构化数据模型与预训练时序模型。',
+          description: "",
           section: "News",},{id: "news-论文-onedb-a-distributed-multi-metric-data-similarity-search-system-发表于-sigkdd-2026",
           title: '论文 OneDB: A Distributed Multi-Metric Data Similarity Search System 发表于 SIGKDD 2026。',
           description: "",
@@ -413,9 +416,6 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-论文-qbase-a-query-aware-vector-search-system-被-ieee-tkde-2026-接收",
           title: '论文 QBase: A Query Aware Vector Search System 被 IEEE TKDE 2026 接收。...',
-          description: "",
-          section: "News",},{id: "news-目前在蚂蚁集团担任算法工程师",
-          title: '目前在蚂蚁集团担任算法工程师。',
           description: "",
           section: "News",},{id: "projects-project-7",
           title: 'project 7',
