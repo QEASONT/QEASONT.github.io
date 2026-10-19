@@ -1,7 +1,7 @@
 
 const currentUrl = window.location.href;
-const siteUrl = "https://qt.qiantech.online"; 
-let updatedUrl = currentUrl.replace("https://qt.qiantech.online", "");
+const siteUrl = "https://qeasont.github.io"; 
+let updatedUrl = currentUrl.replace("https://qeasont.github.io", "");
 if (currentUrl.length == updatedUrl.length && currentUrl.startsWith("http://127.0.0.1")) {
   const otherSiteUrl = siteUrl.replace("localhost", "127.0.0.1");
   updatedUrl = currentUrl.replace(otherSiteUrl + "", "");
@@ -20,9 +20,16 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-cv",
+  },{id: "nav-publications",
+          title: "publications",
+          description: "Research papers and preprints, organized by year.",
+          section: "Navigation menu",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-cv",
           title: "cv",
-          description: "I am a Master&#39;s student at Zhejiang University&#39;s School of Computer Science and Technology, specializing in database systems with a focus on distributed indexing and similarity search in high-dimensional spaces. My research contributes to advancing efficient data retrieval techniques for modern computational challenges. This CV outlines my academic background, research publications, technical skills, and academic achievements, including the Huawei Elite Scholarship and first prize in the 2024 CCF China Database Competition. Please feel free to download the PDF version of my CV using the button above or explore the detailed sections below.",
+          description: "Algorithm Engineer at Ant Group, with research interests in structured data foundation models, vector search, and distributed systems. Recent work includes FEAT, OneDB (SIGKDD 2026), and QBase (TKDE 2026). Explore my experience and research below, or download the PDF CV.",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/cv/";
@@ -398,6 +405,9 @@ ninja.data = [{
           section: "News",},{id: "news-confetti-ball-awarded-huawei-elite-scholarship",
           title: ':confetti_ball: Awarded Huawei Elite Scholarship',
           description: "",
+          section: "News",},{id: "news-i-am-now-an-algorithm-engineer-at-ant-group-research-updates-onedb-at-sigkdd-2026-qbase-at-tkde-2026-and-our-recent-project-feat-available-as-an-arxiv-preprint",
+          title: 'I am now an Algorithm Engineer at Ant Group. Research updates: OneDB at...',
+          description: "",
           section: "News",},{id: "projects-project-7",
           title: 'project 7',
           description: "with background image",
@@ -448,14 +458,14 @@ ninja.data = [{
         title: 'Send an email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%71%74.%74%61%6E%67.%71%69%61%6E@%7A%6A%75.%65%64%75.%63%6E", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://github.com/QEASONT", "_blank");
         },
       },{
         id: 'social-rss',
@@ -470,13 +480,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
           id: 'lang-zh-cn',

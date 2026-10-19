@@ -1,7 +1,7 @@
 
 const currentUrl = window.location.href;
-const siteUrl = "https://qt.qiantech.online"; 
-let updatedUrl = currentUrl.replace("https://qt.qiantech.online", "");
+const siteUrl = "https://qeasont.github.io"; 
+let updatedUrl = currentUrl.replace("https://qeasont.github.io", "");
 if (currentUrl.length == updatedUrl.length && currentUrl.startsWith("http://127.0.0.1")) {
   const otherSiteUrl = siteUrl.replace("localhost", "127.0.0.1");
   updatedUrl = currentUrl.replace(otherSiteUrl + "", "");
@@ -20,9 +20,16 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/zh-cn/";
     },
-  },{id: "nav-个人简历",
+  },{id: "nav-论文发表",
+          title: "论文发表",
+          description: "按年份列出的研究论文与预印本。",
+          section: "Navigation menu",
+          handler: () => {
+            window.location.href = "/zh-cn/publications/";
+          },
+        },{id: "nav-个人简历",
           title: "个人简历",
-          description: "我是钱唐，浙江大学计算机科学与技术学院的硕士研究生。我的研究方向集中在度量空间的索引和查询，特别是高维空间中的最近邻搜索。目前，我正在研究分布式图索引技术，以提高分布式环境下高维向量相似性搜索的性能。我的研究成果已发表在IEEE知识与数据工程汇刊（TKDE）等期刊上。",
+          description: "我是钱唐，目前在蚂蚁集团担任算法工程师，研究兴趣包括结构化数据基础模型、向量检索与分布式系统。近期研究包括 FEAT、OneDB（SIGKDD 2026）和 QBase（TKDE 2026）。可在下方查看工作与研究经历，或下载 PDF 简历。",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/zh-cn/cv/";
@@ -398,6 +405,9 @@ ninja.data = [{
           section: "News",},{id: "news-confetti-ball-awarded-huawei-elite-scholarship",
           title: ':confetti_ball: Awarded Huawei Elite Scholarship',
           description: "",
+          section: "News",},{id: "news-目前在蚂蚁集团担任算法工程师-近期研究动态-onedb-入选-sigkdd-2026-qbase-被-tkde-2026-接收-最新项目-feat-已以-arxiv-预印本形式公开",
+          title: '目前在蚂蚁集团担任算法工程师。近期研究动态：OneDB 入选 SIGKDD 2026，QBase 被 TKDE 2026 接收，最新项目 FEAT 已以 arXiv 预印本形式公开。',
+          description: "",
           section: "News",},{id: "projects-project-7",
           title: 'project 7',
           description: "with background image",
@@ -448,14 +458,14 @@ ninja.data = [{
         title: 'Send an email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%71%74.%74%61%6E%67.%71%69%61%6E@%7A%6A%75.%65%64%75.%63%6E", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://github.com/QEASONT", "_blank");
         },
       },{
         id: 'social-rss',
@@ -470,13 +480,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
           id: 'lang-en-us',
