@@ -1,7 +1,7 @@
 
 const currentUrl = window.location.href;
-const siteUrl = "https://qeasont.github.io"; 
-let updatedUrl = currentUrl.replace("https://qeasont.github.io", "");
+const siteUrl = "https://qt.qiantech.online"; 
+let updatedUrl = currentUrl.replace("https://qt.qiantech.online", "");
 if (currentUrl.length == updatedUrl.length && currentUrl.startsWith("http://127.0.0.1")) {
   const otherSiteUrl = siteUrl.replace("localhost", "127.0.0.1");
   updatedUrl = currentUrl.replace(otherSiteUrl + "", "");
@@ -405,8 +405,17 @@ ninja.data = [{
           section: "News",},{id: "news-confetti-ball-awarded-huawei-elite-scholarship",
           title: ':confetti_ball: Awarded Huawei Elite Scholarship',
           description: "",
-          section: "News",},{id: "news-目前在蚂蚁集团担任算法工程师-近期研究动态-onedb-入选-sigkdd-2026-qbase-被-tkde-2026-接收-最新项目-feat-已以-arxiv-预印本形式公开",
-          title: '目前在蚂蚁集团担任算法工程师。近期研究动态：OneDB 入选 SIGKDD 2026，QBase 被 TKDE 2026 接收，最新项目 FEAT 已以 arXiv 预印本形式公开。',
+          section: "News",},{id: "news-论文-onedb-a-distributed-multi-metric-data-similarity-search-system-发表于-sigkdd-2026",
+          title: '论文 OneDB: A Distributed Multi-Metric Data Similarity Search System 发表于 SIGKDD 2026。',
+          description: "",
+          section: "News",},{id: "news-预印本-feat-a-linear-complexity-foundation-model-for-extremely-large-structured-data-已在-arxiv-更新",
+          title: '预印本 FEAT: A Linear-Complexity Foundation Model for Extremely Large Structured Data 已在 arXiv...',
+          description: "",
+          section: "News",},{id: "news-论文-qbase-a-query-aware-vector-search-system-被-ieee-tkde-2026-接收",
+          title: '论文 QBase: A Query Aware Vector Search System 被 IEEE TKDE 2026 接收。...',
+          description: "",
+          section: "News",},{id: "news-目前在蚂蚁集团担任算法工程师",
+          title: '目前在蚂蚁集团担任算法工程师。',
           description: "",
           section: "News",},{id: "projects-project-7",
           title: 'project 7',

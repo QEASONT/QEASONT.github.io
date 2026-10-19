@@ -1,7 +1,7 @@
 
 const currentUrl = window.location.href;
-const siteUrl = "https://qeasont.github.io"; 
-let updatedUrl = currentUrl.replace("https://qeasont.github.io", "");
+const siteUrl = "https://qt.qiantech.online"; 
+let updatedUrl = currentUrl.replace("https://qt.qiantech.online", "");
 if (currentUrl.length == updatedUrl.length && currentUrl.startsWith("http://127.0.0.1")) {
   const otherSiteUrl = siteUrl.replace("localhost", "127.0.0.1");
   updatedUrl = currentUrl.replace(otherSiteUrl + "", "");
@@ -405,8 +405,17 @@ ninja.data = [{
           section: "News",},{id: "news-confetti-ball-awarded-huawei-elite-scholarship",
           title: ':confetti_ball: Awarded Huawei Elite Scholarship',
           description: "",
-          section: "News",},{id: "news-i-am-now-an-algorithm-engineer-at-ant-group-research-updates-onedb-at-sigkdd-2026-qbase-at-tkde-2026-and-our-recent-project-feat-available-as-an-arxiv-preprint",
-          title: 'I am now an Algorithm Engineer at Ant Group. Research updates: OneDB at...',
+          section: "News",},{id: "news-our-paper-onedb-a-distributed-multi-metric-data-similarity-search-system-has-been-published-at-sigkdd-2026",
+          title: 'Our paper OneDB: A Distributed Multi-Metric Data Similarity Search System has been published...',
+          description: "",
+          section: "News",},{id: "news-our-preprint-feat-a-linear-complexity-foundation-model-for-extremely-large-structured-data-has-been-updated-on-arxiv",
+          title: 'Our preprint FEAT: A Linear-Complexity Foundation Model for Extremely Large Structured Data has...',
+          description: "",
+          section: "News",},{id: "news-our-paper-qbase-a-query-aware-vector-search-system-has-been-accepted-by-ieee-tkde-2026",
+          title: 'Our paper QBase: A Query Aware Vector Search System has been accepted by...',
+          description: "",
+          section: "News",},{id: "news-i-am-now-an-algorithm-engineer-at-ant-group",
+          title: 'I am now an Algorithm Engineer at Ant Group.',
           description: "",
           section: "News",},{id: "projects-project-7",
           title: 'project 7',
