@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-论文 [OneDB: A Distributed Multi-Metric Data Similarity Search System](https://doi.org/10.1145/3770855.3817776) 发表于 SIGKDD 2026。
+:confetti_ball: 论文 [OneDB: A Distributed Multi-Metric Data Similarity Search System](https://doi.org/10.1145/3770855.3817776) 发表于 SIGKDD 2026。

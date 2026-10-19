@@ -1,27 +1,57 @@
 <div class="news">
-  {% if site.news != blank %}
-    {% assign news_size = site.news | size %}
-    <div
-      class="table-responsive"
-      {% if include.limit and page.announcements.scrollable and news_size > 3 %}
-        style="max-height: 60vw"
+  {% assign news = site.news | sort: 'date' | reverse %}
+  {% if include.limit %}
+    {% assign news = news | where_exp: 'item', 'item.homepage != false' %}
+  {% endif %}
+  {% assign news_size = news | size %}
+  {% assign news_limit = news_size %}
+  {% if include.limit and page.announcements.limit %}
+    {% assign news_limit = page.announcements.limit %}
+  {% endif %}
+  {% assign can_toggle = false %}
+  {% if include.limit and news_size > news_limit %}
+    {% assign can_toggle = true %}
+  {% endif %}
+
+  {% if include.limit %}
+    <div class="d-flex align-items-center justify-content-between mb-2">
+      <h2 class="mb-0">
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">{{ site.data[site.active_lang].strings.news }}</a>
+      </h2>
+      {% if can_toggle %}
+        <button
+          type="button"
+          class="btn btn-link btn-sm p-0 ml-3 text-nowrap"
+          data-news-toggle
+          data-show-more="{{ site.data[site.active_lang].strings.news_show_all }}"
+          data-show-less="{{ site.data[site.active_lang].strings.news_show_less }}"
+          data-news-count="{{ news_size }}"
+          aria-controls="news-list"
+          aria-expanded="false"
+          hidden
+        >
+          {{ site.data[site.active_lang].strings.news_show_all }} ({{ news_size }})
+        </button>
       {% endif %}
-    >
-      <table class="table table-sm table-borderless">
-        {% assign news = site.news | reverse %}
-        {% if include.limit and page.announcements.limit %}
-          {% assign news_limit = page.announcements.limit %}
-        {% else %}
-          {% assign news_limit = news_size %}
+    </div>
+  {% endif %}
+
+  {% if news_size > 0 %}
+    <div class="table-responsive">
+      <table
+        class="table table-sm table-borderless"
+        {% if include.limit %}
+          id="news-list"
         {% endif %}
-        {% for item in news limit: news_limit %}
-          <tr>
+      >
+        {% for item in news %}
+          <tr
+            {% if can_toggle and forloop.index > news_limit %}
+              data-news-extra
+            {% endif %}
+          >
             <th scope="row" style="width: 20%">
-              {% if item.date_display %}
-                {{ item.date_display }}
-              {% else %}
-                {% include date_format.liquid format='short' date=item.date %}
-              {% endif %}
+              <time datetime="{{ item.date | date: '%Y-%m' }}">{{ item.date | date: '%Y.%m' }}</time>
             </th>
             <td>
               {% if item.inline %}
@@ -36,5 +66,8 @@
     </div>
   {% else %}
     <p>{{ site.data[site.active_lang].strings.no_news }}</p>
+  {% endif %}
+  {% if can_toggle %}
+    <script defer src="{{ '/assets/js/news.js' | relative_url }}"></script>
   {% endif %}
 </div>

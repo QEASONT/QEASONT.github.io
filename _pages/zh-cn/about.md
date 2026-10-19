@@ -10,8 +10,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>算法工程师</p>
-    <p>蚂蚁集团</p>
+    <p>杭州西湖区</p>
+    <p>浙江大学玉泉校区</p>
+    <p>则通楼</p>
     <p>qt.tang.qian@zju.edu.cn</p>
 
 news: true # includes a list of news items
@@ -21,8 +22,7 @@ social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 5 # older updates remain available through the expand/collapse button
 ---
 
 ## 个人简介

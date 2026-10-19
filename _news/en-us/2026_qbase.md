@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [QBase: A Query Aware Vector Search System](https://github.com/ZJU-DAILY/QBase) has been accepted by IEEE TKDE 2026.
+:confetti_ball: Our paper [QBase: A Query Aware Vector Search System](https://github.com/ZJU-DAILY/QBase) has been accepted by IEEE TKDE 2026.

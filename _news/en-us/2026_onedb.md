@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [OneDB: A Distributed Multi-Metric Data Similarity Search System](https://doi.org/10.1145/3770855.3817776) has been published at SIGKDD 2026.
+:confetti_ball: Our paper [OneDB: A Distributed Multi-Metric Data Similarity Search System](https://doi.org/10.1145/3770855.3817776) has been published at SIGKDD 2026.

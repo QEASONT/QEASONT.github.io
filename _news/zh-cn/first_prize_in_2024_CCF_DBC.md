@@ -2,8 +2,10 @@
 layout: post
 date: 2024-08-15 14:30:00+0800
 inline: true
+homepage: false
 related_posts: false
 ---
+
 :confetti_ball: First Prize in 2024 CCF China Database Competition
 
 <!-- Our team has won first prize in the 2024 CCF China Database Summer Competition! In this competition, we designed and implemented an efficient distributed similarity search system that performed exceptionally well on high-dimensional datasets.

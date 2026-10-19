@@ -115,6 +115,8 @@ months:
     november: Nov
     december: Dec
 news: news
+news_show_all: Show all
+news_show_less: Show less
 newsletter:
   back: Back
   error: "Oops! Something went wrong, please try again."

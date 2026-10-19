@@ -115,6 +115,8 @@ months:
     november: Nov
     december: Dec
 news: news
+news_show_all: 展开全部
+news_show_less: 收起
 newsletter:
   back: Back
   error: "Oops! Something went wrong, please try again."

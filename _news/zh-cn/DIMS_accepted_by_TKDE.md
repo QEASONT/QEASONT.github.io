@@ -4,7 +4,8 @@ date: 2024-02-20 09:15:00+0800
 inline: true
 related_posts: false
 ---
-:confetti_ball: DIMS Paper Accepted by IEEE TKDE
+
+:confetti_ball: 论文 [DIMS: Distributed Index for Similarity Search in Metric Spaces](https://arxiv.org/abs/2410.05091) 被 IEEE Transactions on Knowledge and Data Engineering（TKDE 2024）接收。
 
 <!-- Our research paper "DIMS: Distributed Index for Similarity Search in Metric Spaces" has been accepted for publication in IEEE Transactions on Knowledge and Data Engineering (TKDE). -->
 
