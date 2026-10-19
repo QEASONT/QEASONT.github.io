@@ -4,14 +4,14 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Tang
-middle_name: 
+middle_name:
 last_name: Qian
 contact_note: >
   This is a personal website. If you have any questions, please feel free to contact me.
   The best way to reach me is via email at qt.tang.qian@zju.edu.cn.
   I will try my best to reply to you as soon as possible.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Tang Qian, Algorithm Engineer at Ant Group. Research in structured data foundation models, vector search, and distributed systems.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -19,7 +19,7 @@ footer_text: >
 keywords: academic-website, portfolio-website # add your own keywords or leave empty
 icon: /favicon/favicon.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://qt.qiantech.online # the base hostname & protocol for your site
+url: https://qeasont.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -203,14 +203,12 @@ exclude:
   - _pages/en-us/blog.md
   # - _posts/
   - _pages/en-us/projects.md
-  - _pages/en-us/publications.md
   - _pages/en-us/dropdown.md
   - _pages/en-us/profiles.md
   - _pages/en-us/teaching.md
   - _pages/en-us/repositories.md
   - _pages/zh-cn/blog.md
   - _pages/zh-cn/projects.md
-  - _pages/zh-cn/publications.md
   - _pages/zh-cn/dropdown.md
   - _pages/zh-cn/profiles.md
   - _pages/zh-cn/teaching.md

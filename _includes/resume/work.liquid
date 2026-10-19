@@ -10,6 +10,8 @@
             {% assign endDate = content.endDate | split: '-' | slice: 0, 2 | join: '.' | default: present_text %}
             {% assign date = startDate | append: ' - ' %}
             {% assign date = date | append: endDate %}
+          {% elsif content.endDate == 'Present' or content.endDate == '至今' %}
+            {% assign date = site.data[site.active_lang].strings.cv.present %}
           {% else %}
             {% assign date = '' %}
           {% endif %}

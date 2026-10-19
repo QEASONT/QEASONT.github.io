@@ -1,14 +1,14 @@
 {
   "basics": {
     "name": "Tang Qian",
-    "label": "Computer Science Researcher",
+    "label": "Algorithm Engineer at Ant Group",
     "image": "",
     "email": "qt.tang.qian@zju.edu.cn",
     "phone": "+86-19982050103",
-    "url": "https://qt.qiantech.online/",
-    "summary": "A computer science researcher focused on vector search, distributed systems, and big data analysis, particularly nearest neighbor search in high-dimensional spaces",
+    "url": "https://qeasont.github.io/",
+    "summary": "Algorithm Engineer at Ant Group, with research interests in structured data foundation models, vector search, and distributed systems.",
     "location": {
-      "address": "Room 402, Zetong Building, Yuquan Campus",
+      "address": "",
       "postalCode": "",
       "city": "Hangzhou",
       "countryCode": "CN",
@@ -29,13 +29,12 @@
   },
   "work": [
     {
-      "name": "Zhejiang University",
-      "position": "Graduate Student Researcher",
-      "url": "https://www.zju.edu.cn/english/",
-      "startDate": "2023-09-01",
+      "name": "Ant Group",
+      "position": "Algorithm Engineer",
+      "url": "https://www.antgroup.com/",
       "endDate": "Present",
-      "summary": "Research on vector search, distributed systems, and big data analysis, focusing on nearest neighbor search in high-dimensional spaces.",
-      "highlights": ["Vector Search", "Distributed Computing", "High-Dimensional Data"]
+      "summary": "Currently working as an Algorithm Engineer at Ant Group.",
+      "highlights": []
     }
   ],
   "volunteer": [
@@ -114,18 +113,32 @@
   ],
   "publications": [
     {
-      "name": "DIMS: Distributed Index for Similarity Search in Metric Spaces",
-      "publisher": "IEEE Transactions on Knowledge and Data Engineering (TKDE)",
-      "releaseDate": "2025",
-      "url": "",
-      "summary": "A research paper on distributed indexing techniques for efficient similarity search in metric spaces, accepted by the IEEE Transactions on Knowledge and Data Engineering journal for 2025 publication."
+      "name": "FEAT: A Linear-Complexity Foundation Model for Extremely Large Structured Data",
+      "publisher": "arXiv (preprint)",
+      "releaseDate": "2026-03-17",
+      "url": "https://arxiv.org/abs/2603.16513",
+      "summary": "A linear-complexity foundation model for extremely large structured data, supporting zero-shot classification, regression, and missing-value imputation."
+    },
+    {
+      "name": "OneDB: A Distributed Multi-Metric Data Similarity Search System",
+      "publisher": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SIGKDD)",
+      "releaseDate": "2026-08-08",
+      "url": "https://doi.org/10.1145/3770855.3817776",
+      "summary": "A distributed multi-metric data similarity search system, published at SIGKDD 2026, pages 4024–4033."
     },
     {
       "name": "QBase: A Query Aware Vector Search System",
       "publisher": "IEEE Transactions on Knowledge and Data Engineering (TKDE)",
       "releaseDate": "2026",
       "url": "https://github.com/ZJU-DAILY/QBase",
-      "summary": "A paper presenting QBase, a query-aware vector search system designed to enhance performance and efficiency in vector database operations, to appear in TKDE 2026."
+      "summary": "A query-aware vector search system that uses similarities between query vectors to improve search efficiency."
+    },
+    {
+      "name": "DIMS: Distributed Index for Similarity Search in Metric Spaces",
+      "publisher": "IEEE Transactions on Knowledge and Data Engineering (TKDE)",
+      "releaseDate": "2025",
+      "url": "",
+      "summary": "A research paper on distributed indexing techniques for efficient similarity search in metric spaces, accepted by the IEEE Transactions on Knowledge and Data Engineering journal for 2025 publication."
     },
     {
       "name": "Spatio-Temporal Latent Graph Structure Learning for Traffic Forecasting",
@@ -137,13 +150,25 @@
   ],
   "projects": [
     {
+      "name": "FEAT: A Linear-Complexity Foundation Model for Extremely Large Structured Data",
+      "summary": "A linear-complexity foundation model for extremely large structured data, supporting zero-shot classification, regression, and missing-value imputation.",
+      "highlights": [
+        "Structured data foundation models",
+        "Bidirectional state-space modeling and gated linear attention",
+        "Linear sample-axis complexity",
+        "Zero-shot learning"
+      ],
+      "url": "https://arxiv.org/abs/2603.16513",
+      "status": "arXiv preprint"
+    },
+    {
       "name": "High-Dimensional Data Retrieval Systems",
       "summary": "Research project exploring approximation algorithms to improve query throughput in distributed nearest neighbor search, developing techniques to handle data skew and load balancing in graph-based distributed indexes, and conducting benchmark evaluation against state-of-the-art vector search systems.",
       "highlights": [
-        "Approximation Algorithms", 
-        "Distributed Nearest Neighbor Search", 
-        "Data Skew Handling", 
-        "Load Balancing", 
+        "Approximation Algorithms",
+        "Distributed Nearest Neighbor Search",
+        "Data Skew Handling",
+        "Load Balancing",
         "Benchmark Evaluation"
       ],
       "startDate": "2025",
@@ -155,10 +180,10 @@
       "name": "Distributed Indexing for Metric Space",
       "summary": "Designed and implemented a scalable distributed architecture using Spark for processing large-scale metric datasets, optimized data partitioning algorithms to reduce network communication overhead by 40% while maintaining search accuracy, and conducted extensive experimental evaluation.",
       "highlights": [
-        "Distributed Architecture", 
-        "Spark", 
-        "Data Partitioning Optimization", 
-        "Network Communication Reduction", 
+        "Distributed Architecture",
+        "Spark",
+        "Data Partitioning Optimization",
+        "Network Communication Reduction",
         "Experimental Evaluation"
       ],
       "startDate": "2023",
@@ -167,29 +192,18 @@
       "status": "Accepted by TKDE 2025"
     },
     {
-      "name": "Multi-Modal Data Similarity Search Framework",
+      "name": "OneDB: Multi-Modal Data Similarity Search Framework",
       "summary": "Developed a distributed framework for multi-modal data similarity search supporting efficient querying across heterogeneous data types, designed a dual-layer indexing strategy, implemented a lightweight weight learning model, and achieved significant performance improvements over state-of-the-art solutions.",
-      "highlights": [
-        "Multi-Modal Data", 
-        "Distributed Framework", 
-        "Heterogeneous Data Types", 
-        "Dual-Layer Indexing", 
-        "Weight Learning Model"
-      ],
+      "highlights": ["Multi-Modal Data", "Distributed Framework", "Heterogeneous Data Types", "Dual-Layer Indexing", "Weight Learning Model"],
       "startDate": "2024",
       "endDate": "2025",
-      "url": "",
-      "status": "Submitting to VLDB 2026"
+      "url": "https://doi.org/10.1145/3770855.3817776",
+      "status": "SIGKDD 2026"
     },
     {
       "name": "QBase: A Query Aware Vector Database System",
       "summary": "Development of QBase, an innovative query-aware vector database system designed to optimize vector search with dynamic query optimization, implementing cost-based query planning algorithms to adaptively select optimal index structures.",
-      "highlights": [
-        "Vector Database System", 
-        "Dynamic Query Optimization", 
-        "Cost-based Query Planning", 
-        "Adaptive Index Selection"
-      ],
+      "highlights": ["Vector Database System", "Dynamic Query Optimization", "Cost-based Query Planning", "Adaptive Index Selection"],
       "startDate": "2024",
       "endDate": "2025",
       "url": "https://github.com/ZJU-DAILY/QBase",
@@ -199,11 +213,11 @@
       "name": "Graph-based Traffic Analysis Platform",
       "summary": "Built data preprocessing pipeline for cleaning and normalizing traffic sensor data from multiple urban sources, implemented spatio-temporal graph neural network models, and designed interactive visualization dashboard to present traffic patterns and prediction results.",
       "highlights": [
-        "Data Preprocessing", 
-        "Traffic Sensor Data", 
-        "Spatio-Temporal Graph Neural Networks", 
-        "Python", 
-        "PyTorch", 
+        "Data Preprocessing",
+        "Traffic Sensor Data",
+        "Spatio-Temporal Graph Neural Networks",
+        "Python",
+        "PyTorch",
         "Interactive Visualization"
       ],
       "startDate": "2021",
@@ -305,25 +319,16 @@
     }
   ],
   "certificates": [],
-
   "skills": [
     {
       "name": "Programming Languages",
       "level": "Advanced",
-      "keywords": [
-        "C++",
-        "Scala",
-        "Python"
-      ]
+      "keywords": ["C++", "Scala", "Python"]
     },
     {
       "name": "Frameworks & Tools",
       "level": "Proficient",
-      "keywords": [
-        "Spark",
-        "Hadoop",
-        "Distributed Computing"
-      ]
+      "keywords": ["Spark", "Hadoop", "Distributed Computing"]
     }
   ],
   "languages": [
@@ -339,12 +344,7 @@
   "interests": [
     {
       "name": "Database Systems",
-      "keywords": [
-        "Vector Search",
-        "High-Dimensional Data",
-        "Similarity Search",
-        "Distributed Databases"
-      ]
+      "keywords": ["Vector Search", "High-Dimensional Data", "Similarity Search", "Distributed Databases"]
     }
   ],
   "references": [],
